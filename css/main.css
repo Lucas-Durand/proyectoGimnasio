@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header h1{
+    color: rgb(214, 117, 26);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 30px;
+}
+
+header .logo-carpe-diem{
+    position: absolute;
+    top: 5px;
+    left: 10px;  
+}
+
+header .logo-whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+nav{
+    background-color: #6c5441;   
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: whitesmoke;
+    height: 20px;
+    width: 200px;
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    position: relative;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color: tomato;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #6c5441;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+
+
+
+/*estilos del main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+main p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main .parrafo-dos{
+    margin-top: 30px;
+}
+
+/*estilo de section*/
+section{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+section .video{
+    flex: 30%;
+}
+
+section .p-section{
+    flex: 70%;
+}
+
+/*estilos del footer*/
+
+footer{
+    margin-top: 20px;
+}
+
+footer h3, h4{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+
+
